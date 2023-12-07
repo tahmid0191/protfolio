@@ -1,0 +1,424 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+ 
+}
+/* manu start */
+.navbar .navbar-brand{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.navbar .navbar-brand span{
+    color: red;
+}
+.navbar .navbar-toggler{
+    color:black;
+    background-color:white;
+    height: 30px;
+}
+.navbar .navbar-toggler-icon{
+    height: 20px;
+    background-color: white;
+}
+.navbar .collapse .navbar-nav{
+    margin: auto;
+}
+.navbar .collapse .nav-item .nav-link{
+    color: white;
+}
+.navbar .collapse .nav-item .nav-link:hover{
+    color: red;
+}
+
+/* manu end */
+
+
+
+
+
+/* home start */
+.home{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.home .row{
+    padding-top: 70px;
+}
+.home .row .col-md-5{
+    text-align: center;
+}
+.home .row .col-md-5 .home-pic img{
+    transition: 0.1s;
+}
+.home .row .col-md-5 .home-pic img:hover{
+    transform: scale(1.1);
+}
+.home .row .col-md-5 .home-name {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.home .row .col-md-5 .home-name h1 span{
+    color: red;
+}
+.home .row .col-md-5 .home-name h6 span{
+    color: red;
+}
+.home .row .col-md-5 .home-name .home-from{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.home .row .col-md-5 .home-name .home-from form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.home .row .col-md-5 .home-name .home-from form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 6px 130px 14px 15px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 30px;
+    background-color:lavender;
+}
+.home .row .col-md-5 .home-name .home-from form input:last-child{
+    position:absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 5px black, 0 0 15px gray;
+    top: 6px;
+    right: 6px;
+}
+.home .row .col-md-5 .home-name .home-icon{
+    padding-top:20px ;
+}
+.home .row .col-md-5 .home-name .home-icon a{
+    font-size: 30px;
+    padding-left: 15px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+}
+.home .row .col-md-5 .home-name .home-icon a:hover{
+    color: red;
+}
+/* home end */
+
+
+
+/* about start */
+.about{
+        height: 100%;
+        width: 100%;
+        color: white;
+}
+.about .row{
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.about .row .col-md-4 .about-pic {
+    text-align: center;
+}
+.about .row .col-md-4 .about-pic img{
+    transition: 0.1sec;
+}
+.about .row .col-md-4 .about-pic img:hover{
+    transform: scale(1.1);
+}
+.about .row .col-md-4 .about-name h1{
+    font-weight: bold;
+    margin-top: 30px;
+    text-align: center;
+    color: red;
+}
+.about .row .col-md-4 .about-name h1 span{
+    color:white;
+    
+}
+.about .row .col-md-4 .about-name h6{
+    margin-top: 10px;
+    text-align: center;
+    color: red;
+}
+.about .row .col-md-4 .about-name h6 span{
+    color: white;
+}
+.about .row .col-md-4 .about-name p{
+    margin-top: 50px;
+    text-align: justify;
+}
+.about .row .col-md-4 .about-name button{
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 5px black, 0 0 15px gray;
+    margin-bottom: 20px;
+}
+/* about end */
+
+
+
+
+
+/* service start */
+.service{
+    padding-top: 70px;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.service h1{
+    text-align: center;
+    font-weight: bold;
+    color:white;
+}
+.service h1 span{
+    color: red;
+}
+.service .row{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.service .service-icons{
+    height: 100%;
+   border: 1px solid gray;
+}
+.service .row .col-md-4{
+    padding: 15px;
+}
+.service .service-icons .service-icon{
+    text-align: center;
+    padding: 15px;
+}
+.service .row .service-icons .service-icon h3{
+    padding-top: 5px;
+}
+.service .row .service-icons .service-icon p{
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+/* service end */
+
+
+
+
+
+/* skill start */
+.skill{
+    padding-top: 70px;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.skill h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.skill h1 span{
+    color: red;
+}
+.skill .row{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.skill .row .col-md-2{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.skill .skill-pics{
+    height: 100%;
+    width: auto;
+    background-color:rgba(34, 30, 30, 0.842);
+}
+.skill .skill-pics .skill-pic{
+    text-align: center;
+    padding-top: 10px;
+    background-color:rgba(34, 30, 30, 0.842);
+}
+.skill .skill-pics .skill-pic img{
+    height: 100px;
+    width: 100px;
+    background-color:rgba(34, 30, 30, 0.842);
+}
+.skill .skill-pics .skill-pic p{
+    color: white;
+    margin-top: 10px;
+    background-color:rgba(34, 30, 30, 0.842);
+}
+.skill .row .col-md-5 .skill-item{
+    margin-top: 30px;
+    color: white;
+}
+.skill .row .col-md-5 .skill-item h6{
+    font-weight: bold;
+}
+.skill .row .col-md-5 .skill-item .progress{
+    background-color:gray;
+}
+.skill .row .col-md-5 .skill-item .progress-bar{
+    background-color:red;
+}
+.skill .row .col-md-5{
+    margin-top: 10px;
+}
+.skill .row .fact-item{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(34, 30, 30, 0.842);
+    padding: 15px;
+}
+.skill .row .fact-item h1{
+    color:red;
+    background-color:rgba(34, 30, 30, 0.842);
+}
+.skill .row .fact-item p{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    background-color:rgba(34, 30, 30, 0.842);
+}
+/* skill end */
+
+
+
+
+/* protfolio start */
+.protfolio{ 
+    height: 100%;
+    width: 100%;
+    color: white;
+    padding-top: 70px;
+}
+.protfolio h1{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.protfolio h1 span{
+    color: red;
+}
+.protfolio .row{
+    padding-top: 30px;
+    padding-bottom: 30px;    
+}
+.protfolio .row .col-md-6{
+    padding-top: 20px;
+}
+.protfolio .row .col-md-6 .protfolio-item img{
+    height: 200px;
+    width: 100%;
+}
+.protfolio .row .col-md-6 .protfolio-item h3{
+    text-align: center;
+    padding-top: 3px;
+}
+.protfolio .row .col-md-6 .protfolio-item button{
+  color: white;
+  margin-left: 5px;
+}
+.protfolio .row .col-md-6 .protfolio-item button:hover{
+    color: red;
+}
+/* protfolio end */
+
+
+
+
+
+
+
+/* contact start  */
+.contact{
+    padding-top: 70px;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.contact h1{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+.contact h1 span{
+    color: white;
+}
+.contact .row {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.contact .row .col-md-5{
+    padding-top: 20px;
+}
+.contact .row .contact-item{
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.contact .row .contact-item .icon{
+    color: red;
+    font-size: 30px;
+}
+.contact .row .contact-item .text{
+    margin-left: 10px;
+}
+.contact .row .contact-item .text h3{
+    font-size: 20px;
+}
+.contact .row .contact-item .text p{
+    color: white;
+}
+.contact .row .contact-item .text p:hover{
+    color: red;
+}
+.contact .row .social-pics{
+    padding-top: 20px;
+}
+.contact .row .social-pic{
+    float: left;
+    padding: 5px;
+}
+.contact .row .social-pics img{
+    height: 30px;
+    width: 30px;
+}
+.contact .row .contact-form label{
+    font-weight: bold;
+    padding-top: 10px;
+}
+.contact .row .contact-form input{
+    background-color: gray;
+    border: 1px solid red;
+}
+.contact .row .contact-form textarea{
+    background-color: gray;
+    border: 1px solid red;
+}
+.contact .row .contact-form button{
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+}
+/* contact end */
+
+
+
+# parsonal-website
